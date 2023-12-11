@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/output.css">
+        <link rel="stylesheet" href="font/node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+</head>
+
+<body class="bg-gray-400 p-5 font-bodyy">
+        <main class="w-full h-[100vh] flex flex-wrap items-center justify-center ">
+                <div class="w-[600px]   flex flex-wrap items-center justify-center min-h-[400px] bg-gray-400 p-5">
+
+                        <h1 class="w-full flex justify-center items-center text-[60px] font-bold mb-3">TO DO LIST</h1>
+
+                        <div class="w-full flex justify-center items-center  ">
+                                <input id="_input" type="text" placeholder="Enter your task here"
+                                        class="w-[60%] h-[50px] mr-5 pl-3 rounded text-[20px] font-sans">
+                                <button onclick="_add()" class=" p-3 rounded bg-pink-200 text-[25px]">Add Task</button>
+                        </div>
+                        <ul id="_list"
+                                class=" border border-pink-200 flex flex-wrap  w-full min-h-[150px] mx-6 rounded-b-[40px] p-3 pb-10 mt-5">
+                        </ul>
+                        <button onclick="_clearall(this)" class=" p-3 rounded bg-pink-200 mt-5 text-[25px] ">Clear
+                                All</button>
+
+                </div>
+
+
+        </main>
+
+</body>
+<script src="css/index.js">
+
+</script>
+
+</html>
